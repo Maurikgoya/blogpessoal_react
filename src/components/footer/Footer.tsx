@@ -1,23 +1,27 @@
-import { FacebookLogoIcon, InstagramLogoIcon, LinkedinLogoIcon } from '@phosphor-icons/react'
+import {
+  FacebookLogoIcon,
+  InstagramLogoIcon,
+  LinkedinLogoIcon,
+} from "@phosphor-icons/react";
 
 function Footer() {
+  let data = new Date().getFullYear();
 
-    let data = new Date().getFullYear()
-
-    return (
-        <>
-<div className='flex gap-2'>
-	<a href="https://www.linkedin.com/in/maurigoya" target="_blank">
-    	<LinkedinLogoIcon size={48} weight='bold' />
-    </a>
-    <a href="https://www.instagram.com/rare_kendy" target="_blank">
-    	<InstagramLogoIcon size={48} weight='bold' />
-    </a>
-    <a href="https://www.facebook.com/Kendy.goya" target="_blank">
-    	<FacebookLogoIcon size={48} weight='bold' />
-	</a>
-</div>        </>
-    )
+  return (
+    <>
+      <div className="flex gap-2">
+        <a href="https://www.linkedin.com/in/maurigoya" target="_blank">
+          <LinkedinLogoIcon size={48} weight="bold" />
+        </a>
+        <a href="https://www.instagram.com/rare_kendy" target="_blank">
+          <InstagramLogoIcon size={48} weight="bold" />
+        </a>
+        <a href="https://www.facebook.com/Kendy.goya" target="_blank">
+          <FacebookLogoIcon size={48} weight="bold" />
+        </a>
+      </div>
+    </>
+  );
 }
 
-export default Footer
+export default Footer;
