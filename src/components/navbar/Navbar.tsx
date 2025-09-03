@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <>
-      <div
+      <nav
         className="w-full flex justify-center py-4
             			   bg-indigo-900 text-white"
       >
@@ -31,7 +31,7 @@ function Navbar() {
             <Link to='' onClick={logout} className='hover:underline'>Sair</Link> 
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 }
