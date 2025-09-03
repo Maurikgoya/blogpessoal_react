@@ -163,7 +163,7 @@ function Cadastro() {
               {isLoading ? 
                 <PulseLoader 
                   color="#fff" 
-                  size={24} 
+                  size={18} 
                 /> : 
                 <span>Cadastrar</span>
               }

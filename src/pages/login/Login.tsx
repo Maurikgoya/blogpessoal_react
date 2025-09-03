@@ -9,7 +9,7 @@ import {
 } from "react";
 import { AuthContext } from "../../contexts/AuthContext";
 import type UsuarioLogin from "../../models/UsuarioLogin";
-import { ClipLoader } from "react-spinners";
+import { PulseLoader } from "react-spinners";
 
 function Login() {
   const navigate = useNavigate();
@@ -79,7 +79,7 @@ function Login() {
                                    hover:bg-indigo-900 text-white w-1/2 py-2"
           >
             {isLoading ? (
-              <ClipLoader color="#fff" size={24} />
+              <PulseLoader color="#fff" size={18} />
             ) : (
               <span>Entrar</span>
             )}
