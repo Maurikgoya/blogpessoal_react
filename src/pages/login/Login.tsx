@@ -79,7 +79,7 @@ function Login() {
                                    hover:bg-indigo-900 text-white w-1/2 py-2"
           >
             {isLoading ? (
-              <PulseLoader color="#fff" size={18} />
+              <PulseLoader color="#fff" size={12} />
             ) : (
               <span>Entrar</span>
             )}
